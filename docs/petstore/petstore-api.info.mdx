@@ -1,0 +1,40 @@
+---
+id: petstore-api
+title: "Petstore API"
+description: "Bevezetés a háziállat-adatbázis REST API dokumentációjába"
+sidebar_label: "Introduction"
+sidebar_position: 0
+hide_title: true
+custom_edit_url: null
+---
+
+import Heading from "@theme/Heading";
+import Export from "@theme/ApiExplorer/Export";
+
+<span
+  className="theme-doc-version-badge badge badge--secondary"
+>
+  Version: 1.0.0
+</span>
+
+<Heading
+  as="h1"
+  className="openapi__heading"
+>
+  Petstore API
+</Heading>
+
+Ez az API dokumentáció a Petstore rendszer REST végpontjait mutatja be.
+
+A dokumentációban megtalálod az alábbiakat:
+
+- Állatok lekérdezése (GET /pets)
+- Új állat rögzítése (POST /pets)
+- Válaszstruktúrák és státuszkódok
+- Tesztelhető paraméterek és sémák
+
+<Export
+  name="petstore-api.yaml"
+  mimeType="application/yaml"
+  uri="/openapi/petstore-api.yaml"
+/>

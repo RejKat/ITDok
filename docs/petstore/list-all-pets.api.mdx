@@ -1,0 +1,47 @@
+---
+id: list-pets
+title: "List all pets"
+description: "Lekéri az összes háziállatot"
+sidebar_label: "List Pets"
+hide_title: false
+hide_table_of_contents: false
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import Heading from "@theme/Heading";
+
+<Heading as="h1" className="openapi__heading">List all pets</Heading>
+
+<MethodEndpoint method="get" path="/pets" context="endpoint" />
+
+<ParamsDetails parameters={undefined} />
+
+<RequestSchema title="Request Body" body={undefined} />
+
+<StatusCodes
+  responses={{
+    "200": {
+      description: "A list of pets.",
+    },
+  }}
+/>
+
+## Példa válasz
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Buksi",
+    "type": "kutya"
+  },
+  {
+    "id": 2,
+    "name": "Cirmos",
+    "type": "macska"
+  }
+]
