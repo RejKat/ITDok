@@ -8,29 +8,16 @@ hide_table_of_contents: false
 custom_edit_url: null
 ---
 
-import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
-import ParamsDetails from "@theme/ParamsDetails";
-import RequestSchema from "@theme/RequestSchema";
-import StatusCodes from "@theme/StatusCodes";
-import Heading from "@theme/Heading";
+# List all pets
 
-<Heading as="h1" className="openapi__heading">List all pets</Heading>
+Ez az API-végpont visszaadja az adatbázisban szereplő összes háziállatot.
 
-<MethodEndpoint method="get" path="/pets" context="endpoint" />
+## Végpont
 
-<ParamsDetails parameters={undefined} />
+- **HTTP metódus**: `GET`
+- **URL**: `/pets`
 
-<RequestSchema title="Request Body" body={undefined} />
-
-<StatusCodes
-  responses={{
-    "200": {
-      description: "A list of pets.",
-    },
-  }}
-/>
-
-## Példa válasz
+## Válasz (200 OK)
 
 ```json
 [
