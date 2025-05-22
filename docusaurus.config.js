@@ -9,10 +9,11 @@ const config = {
   title: 'Kata oldala',
   tagline: 'Saurus are awesome',
   favicon: 'img/favicon.ico',
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  url: 'https://rejkat.github.io',
+  baseUrl: '/itdok/',
+  organizationName: 'rejkat',
+  deploymentBranch: 'gh-pages',
+  projectName: 'itdok',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -25,7 +26,6 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          docItemComponent: '@theme/ApiItem',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
