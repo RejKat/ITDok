@@ -10,7 +10,7 @@ const config = {
   tagline: 'Saurus are awesome',
   favicon: 'img/favicon.ico',
   url: 'https://rejkat.github.io',
-  baseUrl: '/itdok/',
+  baseUrl: '/ITDok/',
   organizationName: 'rejkat',
   deploymentBranch: 'gh-pages',
   projectName: 'itdok',
