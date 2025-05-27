@@ -1,6 +1,7 @@
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), athe most modern static website generator.
+<!-- Teszt a PR buildhez -->
 
 ### Installation
 
